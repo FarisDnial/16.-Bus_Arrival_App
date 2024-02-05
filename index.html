@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Bus Arrival App</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Bus Arrival App</h1>
+  <img src="bus.png" alt="" height="250px">
+  <label for="busStopId">Bus Stop ID: (e.g. 18141)</label>
+  <input type="text" id="busStopId" name="busStopId" placeholder="Enter bus stop ID">
+  <button id="submit" onclick="getBusTiming()">Submit</button>
+  <div id="arrivalInfo"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
